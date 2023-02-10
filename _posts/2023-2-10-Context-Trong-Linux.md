@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Context trong Linux  
-subtitle:  Định nghĩa về các loại context (ngữ cảnh) trong Linux
+subtitle:  Định nghĩa về các loại context (ngữ cảnh) trong Linux Kernel.
 gh-repo: 
 gh-badge: [star, fork, follow]
-tags: [kernel, embedded, device driver]
+tags: [kernel, embedded, context]
 ---
 
 Process context, interrupt context, user(space) context, system call context, atomic context, nonatomic context,... là những khái niệm về context hay gặp khi làm việc với Linux kernel. Chắc hẳn nhiều bạn cũng giống như mình, ban đầu sẽ rất bối rối khi gặp những khái niệm này. Tại sao lại có nhiều loại context như này? Có cái nào giống cái nào không? Hôm nay mình sẽ đi tổng hợp những kiến thức liên quan đến các loại ```context - ngữ cảnh``` trong linux kernel:
