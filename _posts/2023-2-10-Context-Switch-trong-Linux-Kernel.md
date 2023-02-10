@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Context switch trong trong Linux Kernel.
-subtitle:  Định nghĩa về các loại context (ngữ cảnh) trong Linux
 gh-repo: 
 gh-badge: [star, fork, follow]
 tags: [kernel, embedded, context switch]
