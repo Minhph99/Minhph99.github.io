@@ -15,7 +15,7 @@ Một trong những nhiệm vụ chính của process là thực thi lệnh chư
 #### 1.2. Process context trên kernel space:
 Khi một chương trình thực hiện gọi tới system call, nó nhảy vào kernel-space. Ở thời điểm này, kernel thay mặt cho process thực thi chương trình, và chương trình bây giờ sẽ chạy trên process context ở ```kernel space```. 
 
-### 1.3. Lưu ý:
+#### 1.3. Lưu ý:
 Ở ```process context```, kernel có thể ngủ (lấy ví dụ khi một system call blocks khi gọi ```schedule()```), và cũng hoàn toàn preemtible. Nhắc lại thì preemtible là có thể xảy ra chen hàng, chen hàng là hiện tượng một process A đang chạy thì bị ngắt, sau khi thực hiện ngắt xong thì process B lại được thực hiện thay vì process A. 
 
 ### 2. Interrupt context:
